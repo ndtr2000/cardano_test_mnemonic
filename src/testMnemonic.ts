@@ -5,9 +5,9 @@ import * as fs from 'fs';
 const main = async () => {
     const index = process.argv[2];
     const initialKeyWords = [
-        'lab',
-        'mother',
-        'toward',
+        'shield',
+        'install ',
+        'sketch',
         'about',
         'smile',
         'level',

@@ -1,8 +1,4 @@
-import {
-    Transaction,
-    BlockfrostProvider,
-    AppWallet,
-} from '@meshsdk/core';
+import { Transaction, BlockfrostProvider, AppWallet } from '@meshsdk/core';
 import { keyWords, initialKeyWords } from './const';
 import * as fs from 'fs';
 
@@ -24,8 +20,8 @@ async function guess(
     provider: BlockfrostProvider
 ) {
     const initialIndex = 0;
-    const startIndex = initialIndex + index * 256;
-    const endIndex = startIndex + 256;
+    const startIndex = initialIndex + index * 44;
+    const endIndex = startIndex + 44;
     let length = keywords.length;
     for (let i = startIndex; i < endIndex; i++) {
         for (let j = 0; j < length; j++) {
