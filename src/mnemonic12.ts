@@ -83,7 +83,7 @@ async function guess(
                             console.log(e);
                         }
                     }
-                } catch {}
+                } catch (e) {}
             }
         }
     }

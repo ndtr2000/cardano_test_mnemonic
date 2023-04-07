@@ -1,8 +1,4 @@
-import {
-    Transaction,
-    BlockfrostProvider,
-    AppWallet,
-} from '@meshsdk/core';
+import { Transaction, BlockfrostProvider, AppWallet } from '@meshsdk/core';
 import { keyWords, initialKeyWords } from './const';
 import * as fs from 'fs';
 
@@ -82,7 +78,7 @@ async function guess(
                         console.log(e);
                     }
                 }
-            } catch {}
+            } catch (e) {}
         }
     }
 }
