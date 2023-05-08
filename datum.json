@@ -1,0 +1,86 @@
+{
+    "fields": [
+        {
+            "fields": [
+                {
+                    "fields": [
+                        {
+                            "fields": [
+                                {
+                                    "bytes": "82994318c11bb18d8307a4d53f2ce2299b9d87fb6e5c0bc5bd608d68" // payment hash
+                                }
+                            ],
+                            "constructor": 0
+                        },
+                        {
+                            "fields": [
+                                {
+                                    "fields": [
+                                        {
+                                            "fields": [
+                                                {
+                                                    "bytes": "98ba0ca5dcf65785e16c8cd4b4c4f843083bcf555c6c45360ae4d5d0" // reward key hash
+                                                }
+                                            ],
+                                            "constructor": 0
+                                        }
+                                    ],
+                                    "constructor": 0
+                                }
+                            ],
+                            "constructor": 0
+                        }
+                    ],
+                    "constructor": 0
+                },
+                {
+                    "bytes": "82994318c11bb18d8307a4d53f2ce2299b9d87fb6e5c0bc5bd608d68" // payment hash
+                },
+                {
+                    "int": 1681858952821 //deadline
+                },
+                {
+                    "fields": [
+                        {
+                            "fields": [
+                                {
+                                    "bytes": "" // policyId receive
+                                },
+                                {
+                                    "bytes": "" // assetName receive
+                                }
+                            ],
+                            "constructor": 0
+                        },
+                        {
+                            "fields": [
+                                {
+                                    "bytes": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880" // policyId sell
+                                },
+                                {
+                                    "bytes": "69425443" // assetName sell
+                                }
+                            ],
+                            "constructor": 0
+                        }
+                    ],
+                    "constructor": 0
+                }
+            ],
+            "constructor": 0
+        },
+        {
+            "fields": [
+                {
+                    "fields": [],
+                    "constructor": 1
+                },
+                {
+                    "int": 1674769451 // amount desired
+                }
+            ],
+            "constructor": 0
+        }
+    ],
+    "constructor": 0
+}

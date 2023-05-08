@@ -11,7 +11,8 @@
         "experimentalDecorators": true,
         "strict": true,
         "strictPropertyInitialization": false,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        
     },
     "include": ["src/**/*.ts", "test/**/*.spec.ts"],
     "exclude": ["node_modules"]

@@ -1,0 +1,96 @@
+{
+    "fields": [
+        {
+            "fields": [
+                {
+                    "fields": [
+                        {
+                            "bytes": "6637a513871a453f18ccc5f039f850100c779ae5b1630fe4585e87b0" // Address key hash
+                        }
+                    ],
+                    "constructor": 0
+                },
+                {
+                    "fields": [
+                        {
+                            "fields": [
+                                {
+                                    "fields": [
+                                        {
+                                            "bytes": "16e7c12b3bfe74a3972b47e6f65c4db8a32bda5663afb7a79d05180a" // Stake key hash
+                                        }
+                                    ],
+                                    "constructor": 0
+                                }
+                            ],
+                            "constructor": 0
+                        }
+                    ],
+                    "constructor": 0
+                }
+            ],
+            "constructor": 0
+        },
+        {
+            "fields": [
+                {
+                    "fields": [
+                        {
+                            "bytes": "6637a513871a453f18ccc5f039f850100c779ae5b1630fe4585e87b0"
+                        }
+                    ],
+                    "constructor": 0
+                },
+                {
+                    "fields": [
+                        {
+                            "fields": [
+                                {
+                                    "fields": [
+                                        {
+                                            "bytes": "16e7c12b3bfe74a3972b47e6f65c4db8a32bda5663afb7a79d05180a"
+                                        }
+                                    ],
+                                    "constructor": 0
+                                }
+                            ],
+                            "constructor": 0
+                        }
+                    ],
+                    "constructor": 0
+                }
+            ],
+            "constructor": 0
+        },
+        {
+            "fields": [],
+            "constructor": 1
+        },
+        {
+            "fields": [
+                {
+                    "fields": [
+                        {
+                            "bytes": "8daefa391220bd0d8d007f3748d870f7f3c106040314c8515ccc35a5" // Policy Id, empty if it's ADA
+                        },
+                        {
+                            "bytes": "464c4143" // Asset name, empty if it's ADA
+                        }
+                    ],
+                    "constructor": 0
+                },
+                {
+                    "int": 17775365264 // Expected Amount
+                }
+            ],
+            "constructor": 0
+        },
+        {
+            "int": 2000000
+        },
+        {
+            "int": 2000000
+        }
+    ],
+    "constructor": 0
+}
